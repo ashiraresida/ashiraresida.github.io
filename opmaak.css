@@ -1,7 +1,9 @@
 ul{
     list-style-type: none;
     margin: 0;
-    padding;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
 
 li {
@@ -10,13 +12,14 @@ li {
 
 li a{
     display: block;
-    color: black;
+    color: #000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 16px;
     text-decoration: none;
 
 }
 
 li a: hover {
-    background-color: #111;
+    background-color: #555;
+    color: white;
 }
