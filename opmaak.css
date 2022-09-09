@@ -1,10 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: linen;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
-}
+    }
 
 li {
     float: left;
@@ -20,6 +27,20 @@ li a{
 }
 
 li a: hover {
-    background-color: #555;
+    background-color: linen;
     color: white;
 }
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+} 
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
