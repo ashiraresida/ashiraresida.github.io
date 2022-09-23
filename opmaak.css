@@ -22,3 +22,12 @@ ul {
   li a:hover {
     background-color: lightcoral;
   }
+
+  img.a {
+    width: 200px;
+    height: 400px;
+    object-fit: none;
+    object-position: 5px 10%;
+    border: 5px solid red;
+  }
+  
