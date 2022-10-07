@@ -66,9 +66,13 @@
 .top-level-menu a /* Apply to all links inside the multi-level menu */
 {
     font: bold 14px Georgia, 'Times New Roman', Times, serif;
-    color: black;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding: 0 0 0 10px;
+
 
     /* Make the link cover the entire list item-container */
     display: block;
