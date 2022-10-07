@@ -17,14 +17,12 @@
 
 .second-level-menu
 {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
+    float: none;
+    color: rgb(209, 209, 243);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
 .second-level-menu > li
@@ -44,11 +42,13 @@
 
 .top-level-menu > li
 {
-    position: relative;
-    float: left;
-    height: 30px;
-    width: 150px;
-    background:rgb(209, 209, 243);
+    position: absolute;
+    float: none;
+    color: rgb(209, 209, 243);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 .top-level-menu > li:hover { background: lavender; }
 
