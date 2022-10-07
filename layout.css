@@ -1,79 +1,65 @@
-.third-level-menu
-{
-    float: none;
-    color: rgb(209, 209, 243);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.third-level-menu > li
-{
-    height: 30px;
-    background: rgb(209, 209, 243);
-}
-.third-level-menu > li:hover { background: lavender; }
-
-.second-level-menu
-{
-    float: none;
-    color: rgb(209, 209, 243);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.second-level-menu > li
-{
-    position: relative;
-    height: 30px;
-    background: rgb(209, 209, 243);
-}
-.second-level-menu > li:hover { background: lavender; }
-
-.top-level-menu
-{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.top-level-menu > li
-{
-    position: absolute;
-    float: none;
-    color: rgb(209, 209, 243);
-    padding: 0 0 0 10px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.top-level-menu > li:hover { background: lavender; }
-
-.top-level-menu li:hover > ul
-{
-    /* On hover, display the next level's menu */
-    display: inline;
-}
-
-
-/* Menu Link Styles */
-
-.top-level-menu a /* Apply to all links inside the multi-level menu */
-{
-    font: bold 14px Georgia, 'Times New Roman', Times, serif;
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
-
-    /* Make the link cover the entire list item-container */
-    display: block;
-    line-height: 30px;
-}
-.top-level-menu a:hover { color: lavender; }
+<style>
+            body {
+              font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+           
+            .navbar {
+              overflow: hidden;
+              background-color:rgb(209, 209, 243);
+            }
+           
+            .navbar a {
+              float: left;
+              font-size: 16px;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+           
+            .dropdown {
+              float: left;
+              overflow: hidden;
+            }
+           
+            .dropdown .dropbtn {
+              font-size: 16px;  
+              border: none;
+              outline: none;
+              color: white;
+              padding: 14px 16px;
+              background-color: inherit;
+              font-family: inherit;
+              margin: 0;
+            }
+           
+            .navbar a:hover, .dropdown:hover .dropbtn {
+              background-color: lavender;
+            }
+           
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+           
+            .dropdown-content a {
+              float: none;
+              color: rgb(209, 209, 243);
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }
+           
+            .dropdown-content a:hover {
+              background-color: lavender;
+            }
+           
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+            </style>
