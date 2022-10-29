@@ -68,7 +68,7 @@
     font: bold 14px Times New Roman,serif;
     .navbar {
         width: 100%;
-        background-color: #555;
+        background-color: rgb(213, 171, 243);
         overflow: auto;
     }
       
