@@ -35,7 +35,7 @@
     height: 30px;
     background: rgb(213, 171, 243);
 }
-.second-level-menu > li:hover { background: #CCCCCC; }
+.second-level-menu > li:hover { background: lavender; }
 
 .top-level-menu
 {
@@ -52,7 +52,7 @@
     width: 150px;
     background:  rgb(213, 171, 243);
 }
-.top-level-menu > li:hover { background: #CCCCCC; }
+.top-level-menu > li:hover { background: lavender; }
 
 .top-level-menu li:hover > ul
 {
