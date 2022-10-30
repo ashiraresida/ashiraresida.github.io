@@ -22,7 +22,7 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+  /* Change the link color to lavender on hover */
   li a:hover {
     background-color: lavender;
   }
