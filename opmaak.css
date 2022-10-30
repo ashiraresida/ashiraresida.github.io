@@ -1,11 +1,9 @@
-body {margin:0;font-family:Times New Roman}
-
-.top-level-menu {
+.topnav {
   overflow: hidden;
   background-color: rgb(213, 171, 243);
 }
 
-.top-level-menu a {
+.topnav a {
   float: left;
   display: block;
   color: white;
@@ -20,7 +18,7 @@ body {margin:0;font-family:Times New Roman}
   color: white;
 }
 
-.top-level-menu .icon {
+.topnav .icon {
   display: none;
 }
 
@@ -83,8 +81,7 @@ body {margin:0;font-family:Times New Roman}
 }
 
 @media screen and (max-width: 600px) {
- }
-  .topnav{position: relative;}
+  .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
