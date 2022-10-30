@@ -8,8 +8,8 @@ ul {
     padding: 10px 50px 20px;
     overflow: hidden; 
     background-color:  rgb(213, 171, 243);
-    display: inline-block; /* stond hier eerst niet, veranderen naar block? want li a hover ool zo, was eerst niks, was daarna inline maar ging fout*/
-  }
+    float: left;
+}
   
   li {
     float: left;
