@@ -62,12 +62,12 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-     }
+}
            
 .navbar {
     overflow: hidden;
     background-color:rgb(209, 209, 243);
-        }
+}
            
 .navbar a {
     float: left;
@@ -76,4 +76,4 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-         }
+}
