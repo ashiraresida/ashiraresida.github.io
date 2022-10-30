@@ -80,7 +80,7 @@ ul {
     position: relative;
     float: left;
     height: 30px;
-    width: 150px;
+    width: 100%;
     background:  rgb(213, 171, 243);
 }
 .top-level-menu > li:hover { background: lavender; }
