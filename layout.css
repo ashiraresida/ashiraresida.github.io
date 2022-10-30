@@ -5,7 +5,7 @@ body {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px 50px 20px;
+    padding: 14px 16px;
     overflow: hidden; 
     background-color:  rgb(213, 171, 243);
     display: inline;
@@ -19,7 +19,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 50px 20px; /* was eerst anders*/
+    padding: 14px 16px; /* was eerst anders*/
     text-decoration: none;
   }
   
