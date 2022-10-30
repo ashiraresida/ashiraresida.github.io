@@ -94,12 +94,11 @@ body {margin:0;font-family:Times New Roman}
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
+  .top-level-menu.responsive .dropdown {float: none;}
+  .top-level-menu.responsive .dropdown-content {position: relative;}
+  .top-level-menu.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
   }
 }
-  
