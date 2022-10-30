@@ -8,23 +8,20 @@
     </head>
     <body>
 
-<ul class="topnav">
-    <li><a href="/index.html">Home</a></li>
-    <li><a href="/html/cpu.html">CPU</a></li>
-    <li>
-        <a href= "/html/3lagenmodel.html"> 3lagenmodel</a>
-        <ul class="second-level-menu">   
-            <li><a href="/html/logischelaag.html">Logische laag</a></li>
-            <li><a href="/html/toepassingslaag.html">Toepassingslaag</a></li>
-            <li>
-                <a href="/html/fysiekelaag.html">Fysieke laag</a>
-                <ul class= "third-level-menu">
-                  <li><a href="tbd.html"> tbd </a></li>
-                  <li><a href="nognietklaar.html">tbd2</a></li>
-                </ul>
-            </li>   
-        </ul>
-    </li>
-</ul>             
-    </body>
-</html>
+ <div class="top-level-menu" id="nav">
+    <a href="" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+       <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+        <i class="fa fa-caret-down"></i>
+        </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+     </div> 
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
