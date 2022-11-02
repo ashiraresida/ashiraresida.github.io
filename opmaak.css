@@ -1,4 +1,4 @@
-ul#navMenu {
+.ul#navMenu {
   padding:0px;
   margin:0px;
   width:420px;
@@ -6,7 +6,7 @@ ul#navMenu {
   position:relative
 }
 
-ul#navMenu ul {
+.ul#navMenu ul {
   position:absolute;
   left:0;
   top:100%;
@@ -15,13 +15,13 @@ ul#navMenu ul {
   margin:0px
 }
 
-ul#navMenu li {
+.ul#navMenu li {
   display:inline;
   float:left;
   position:relative
 }
 
-ul#navMenu a {
+.ul#navMenu a {
   text-decoration:none;
   padding:10px 0px;
   width:100px;
@@ -32,19 +32,19 @@ ul#navMenu a {
   border:1px solid #ffffff;
 }
 
-ul#navMenu a:hover {
+.ul#navMenu a:hover {
   background:lavender;
   color: white;
 }
-ul#navMenu li:hover ul {
+.ul#navMenu li:hover ul {
   display:block;
 }
 
-ul#navMenu ul a {
+.ul#navMenu ul a {
   width:150px;
 }
 
-ul#navMenu ul li {
+.ul#navMenu ul li {
   display:block;
   margin:0px
 }
@@ -53,10 +53,10 @@ ul#navMenu ul ul {
   left:100%;
 }
 
-ul#navMenu li:hover ul ul {
+.ul#navMenu li:hover ul ul {
   display:none;
 }
 
-ul#navMenu ul li:hover ul {
+.ul#navMenu ul li:hover ul {
   display:block;
 }
