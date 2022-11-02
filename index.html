@@ -8,41 +8,27 @@
     </head>
     <body>
 
-        <div class="topnav" id="myTopnav">
-            <a href="/index.html" class="active">Home</a>
-            <a href="/html/cpu.html">CPU</a>
-            <div class="dropdown">
-            <button class="dropbtn">3lagenmodel
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="/html/3lagenmodel.html">Mijn 3lagenmodel</a>
-                <a href="/html/logischelaag.html">Logische laag</a>
-                <a href="/html/toepassingslaag.html">Toepassingslaag</a>
-                <a href="/html/fysiekelaag.html">Fysieke laag</a>
-              </div>
-            </div>  
-            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
-        <div style="padding-left:16px">
-          <h2>Responsive Topnav with Dropdown</h2>
-          <p>Resize the browser window to see how it works.</p>
-          <p>Hover over the dropdown button to open the dropdown menu.</p>
-        </div>
-        <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
-        
-        </body>
-        </html>
-        
-         
+        <ul id="navMenu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/html/cpu.html">CPU</a>
+                <ul>
+                    <li><a href="/html/3lagenmodel.html">3lagenmodel</a></li>
+                    <li><a href="#">Audio</a></li>
+                    <li><a href="#">Video »</a>
+                        <ul>
+                            <li><a href="#">VCR</a></li>
+                            <li><a href="#">DVD</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a>
+                <ul>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Hours of Operation</a></li>
+                </ul>
+            </li>
+        </ul>          
     </body> 
 </html>
