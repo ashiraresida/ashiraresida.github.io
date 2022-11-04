@@ -1,18 +1,18 @@
 ody {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif; /*lettertype van de website*/
+  margin: 0; /*hoeveel ruimte er om het object heen zit*/
 }
 
 .navbar {
-  overflow: hidden;
-  background-color: indianred;
+  overflow: hidden; /*zorgt ervoor dat enige resterende objecten wegvallen*/
+  background-color: indianred; /*de kleur van mijn menu/navigatiebar*/
 }
 
 .navbar a {
-  float: left;
-  font-size: 18px;
+  float: left; /*aan welke kant zich het menu bevindt/aan welke kant het menu begint*/
+  font-size: 18px; /*de lettergrootte van de letters in het menu*/
   color: white;
-  text-align: center;
+  text-align: center; /*zorgt ervoor dat de woorden in het midden van hun blok staan*/
   padding: 20px 22px; /*de dikte van mijn menu*/
   text-decoration: none;
 }
@@ -28,7 +28,7 @@ ody {
   outline: none;
   color: white;
   padding: 20px 22px;
-  background-color: inherit;
+  background-color: inherit; /*neemt de achtergrond en het lettertype over van mijn hoofdmenu*/
   font-family: inherit;
   margin: 0;
 }
@@ -39,7 +39,7 @@ ody {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: absolute; /* poisite bij zijn meest dichtsbijzijnde relatie*/ 
   background-color:white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px lightcoral;
@@ -47,7 +47,7 @@ ody {
 }
 
 .dropdown-content a {
-  float: none;
+  float: none; /*geen positie aangewezen gekregen*/
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -56,7 +56,7 @@ ody {
 }
 
 .dropdown-content a:hover {
-  background-color: lightcoral;
+  background-color: lightcoral; /*wanneer iemand met de muis over de dropdown onderdelen gaat wordt het onderdeel deze kleur*/
 }
 
 .dropdown:hover .dropdown-content {
