@@ -10,7 +10,7 @@ ody {
 
 .navbar a {
   float: left;
-  font-size: 22px;
+  font-size: 18px;
   color: white;
   text-align: center;
   padding: 20px 22px; /*de dikte van mijn menu*/
@@ -23,7 +23,7 @@ ody {
 }
 
 .dropdown .dropbtn {
-  font-size: 22px;  
+  font-size: 18px;  
   border: none;
   outline: none;
   color: white;
