@@ -34,7 +34,7 @@ ody {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: cor;
+  background-color: lightcoral;
 }
 
 .dropdown-content {
