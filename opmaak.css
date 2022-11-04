@@ -5,7 +5,7 @@ ody {
 
 .navbar {
   overflow: hidden;
-  background-color: honeydew;
+  background-color: indianred;
 }
 
 .navbar a {
@@ -34,15 +34,15 @@ ody {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: whitesmoke;
+  background-color: cor;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:whitesmoke;
+  background-color:white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px ivory;
+  box-shadow: 0px 8px 16px 0px lightcoral;
   z-index: 1;
 }
 
@@ -56,7 +56,7 @@ ody {
 }
 
 .dropdown-content a:hover {
-  background-color: ivory;
+  background-color: white;
 }
 
 .dropdown:hover .dropdown-content {
