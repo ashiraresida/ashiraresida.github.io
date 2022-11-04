@@ -56,7 +56,7 @@ ody {
 }
 
 .dropdown-content a:hover {
-  background-color: white;
+  background-color: lightcoral;
 }
 
 .dropdown:hover .dropdown-content {
