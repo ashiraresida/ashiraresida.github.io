@@ -76,3 +76,20 @@ ody {
   margin-left: 500px;
   width: 500px;
 }
+
+/*hierbij schrijf ik kleuren toe aan de soorten kopjes en letters*/
+body{
+  color: black;
+}
+h1{
+  color:indianred;
+}
+h2{
+  color: indianred;
+}
+
+.footer { 
+      position: fixed; /*positie van mijn footer blijft hetzelfde*/
+      left: 0;
+      bottom: 0;
+    }  /*de footer heeft nu een stijl toegeschreven gekregen, waardoor hij altijd onderaan de pagina staat*/
